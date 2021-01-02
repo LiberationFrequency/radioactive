@@ -1,0 +1,131 @@
+# version 0.00.001 alpha
+# Tag name          ;  color
+cb                  ; #c0c0c0
+drm                 ; #c0c0c0
+am                  ; #c0c0c0
+js8call             ; #c0c0c0
+time                ; #c0c0c0
+weather             ; #c0c0c0
+rtty                ; #c0c0c0
+fm                  ; #c0c0c0
+digital             ; #c0c0c0
+ism                 ; #c0c0c0
+navtex              ; #c0c0c0
+psk31               ; #c0c0c0
+broadcast           ; #c0c0c0
+ft8                 ; #c0c0c0
+ssb                 ; #c0c0c0
+fax                 ; #c0c0c0
+ham                 ; #c0c0c0
+cw                  ; #c0c0c0
+digispeech          ; #c0c0c0
+mil                 ; #c0c0c0
+wspr2               ; #c0c0c0
+sitor               ; #c0c0c0
+ft4                 ; #c0c0c0
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+       60000; MSF Time Signal UK       ; AM                  ;         10; time,am
+       77500; DCF77 Time Signal Germany; AM                  ;         10; time,am
+      147300; DDH7-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+      198000; BBC                      ; AM                  ;      10000; am,broadcast
+      234000; RTL LUX                  ; AM                  ;      10000; am,broadcast
+      490000; DDH49-SITOR-B/NAVTEX     ; USB                 ;        500; digital,sitor,navtex,weather,ssb
+      518000; DDH51-SITOR-B/NAVTEX     ; USB                 ;        500; digital,sitor,navtex,weather,ssb
+     1836000; CW QRP                   ; CW-L                ;        200; digital,ham,cw
+     1838000; PSK31 160m Ham           ; USB                 ;       2500; digital,ham,psk31
+     1840000; FT8 160m Ham             ; USB                 ;       2500; digital,ham,ft8
+     1842000; JS8Call 160m Ham         ; USB                 ;       2500; digital,ham,js8call
+     2500000; Time Signal USA          ; AM                  ;      10000; broadcast,digital,time
+     3555000; CW 80m QRS Ham           ; CW-L                ;        200; digital,ham,cw
+     3560000; CW 80m QRP Ham           ; CW-L                ;        200; digital,ham,cw
+     3568600; WSPR2 80m Ham            ; USB                 ;       2700; digital,ham,ssb,wspr2
+     3573000; FT8 80m Ham              ; USB                 ;       2500; digital,ham,ft8
+     3578000; JS8CALL 80m Ham          ; USB                 ;       2800; digital,ham,js8call
+     3580000; PSK31 80m Ham            ; USB                 ;       2500; digital,ham,psk31
+     3630000; Digital Speech 80m Ham   ; LSB                 ;       2700; digital,ham,digispeech
+     3690000; SSB QRP 80m Ham          ; LSB                 ;       2700; digital,ham
+     3756000; Monolith_8S1Shch_The Pip(night); USB                 ;        500; mil
+     3828000; Monolith_Alpha-45_The Squeaky Wheel(night); USB                 ;        500; mil
+     3855000; DDH3-FAX                 ; USB                 ;        500; digital,fax,weather,ssb
+     3995000; HCJB-Voice of the Andes  ; USB                 ;       2700; broadcast,ssb
+     4583000; DDK2-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+     4625000; Monolith_ANVF_The Buzzer ; USB                 ;        500; mil
+     5357000; FT8 60m Ham              ; USB                 ;       2700; digital,ft8,ssb
+     5448000; Monolith_8S1Shch_The Pip(day); USB                 ;        500; mil
+     5473000; Monolith_Alpha-45_The Squeaky Wheel(day); USB                 ;        500; mil
+     7038600; WSPR2 40m Ham            ; USB                 ;        200; digital,ham,ssb,wspr2
+     7040000; PSK31 40m Ham Region 1&3 ; USB                 ;       2700; digital,ham,psk31,ssb
+     7056000; FT8 40m Ham Region1      ; USB                 ;       2500; digital,ham,ft8
+     7074000; FT8 40m Ham              ; USB                 ;       2500; digital,ham,ft8
+     7078000; JS8CALL 40m Ham          ; USB                 ;       2800; digital,ham,js8call
+     7646000; DDH7-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+     7880000; DDK3-FAX                 ; USB                 ;        500; digital,fax,weather,ssb
+    10100800; DDK9-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+    10130000; JS8Call 30m Ham          ; USB                 ;       2700; digital,ham,js8call,ssb
+    11039000; DDH9-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+    11638000; DDK8-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+    13882500; DDK6-FAX                 ; USB                 ;        500; digital,fax,weather,ssb
+    14070000; PSK31 20m Ham            ; USB                 ;       2500; digital,ham,psk31
+    14074000; FT8 20m Ham              ; USB                 ;       2500; digital,ham,ft8
+    14078000; JS8 20 Ham               ; USB                 ;       1900; digital,ham,js8call,ssb
+    14080000; FT4 20m Ham              ; USB                 ;       2400; digital,ssb,ft4
+    14090000; FT8 20m Ham              ; USB                 ;       2400; digital,ft8,ham,ssb
+    14095600; 20m WSPR2 Ham            ; USB                 ;       2700; digital,ham,wspr2
+    14467300; DDH8-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+    15785000; bit eXpress              ; AM                  ;       5600; broadcast,digital,drm
+    15988000; DDK7-RTTY                ; USB                 ;        500; digital,rtty,weather,ssb
+    18104000; JS8Call 17m Ham          ; USB                 ;       2700; digital,ham,js8call,ssb
+    21074000; FT8 15m Ham              ; USB                 ;       2400; digital,ft8,ham,ssb
+    24915000; FT8 12m Ham              ; USB                 ;       2400; digital,ft8,ham,ssb
+    24922000; JS8Call 12m Ham          ; USB                 ;       2700; digital,ham,js8call,ssb
+    26965000; CB CH 01                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    26975000; CB CH 02                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    26985000; CB CH 03                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27005000; CB CH 04                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27015000; CB CH 05                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27025000; CB CH 06 Data            ; Narrow FM           ;      10000; digital,ism,cb,fm
+    27035000; CB CH 07 Data            ; Narrow FM           ;      10000; digital,ism,cb,fm
+    27055000; CB CH 08                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27065000; CB CH 09                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27075000; CB CH 10                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27085000; CB CH 11 Gateway         ; Narrow FM           ;      10000; ism,cb,fm
+    27105000; CB CH 12                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27115000; CB CH 13                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27125000; CB CH 14                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27135000; CB CH 15                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27155000; CB CH 16                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27165000; CB CH 17                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27175000; CB CH 18                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27185000; CB CH 19                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27205000; CB CH 20                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27215000; CB CH 21                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27225000; CB CH 22                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27235000; CB CH 24 Data            ; Narrow FM           ;      10000; digital,ism,cb,fm
+    27245000; CB CH 25 Data            ; USB                 ;      10000; digital,ism,cb,ssb
+    27255000; CB CH 23                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27265000; CB CH 26                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27275000; CB CH 27                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27285000; CB CH 28                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27295000; CB CH 29 Gateway         ; Narrow FM           ;      10000; ism,cb,fm
+    27305000; CB CH 30                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27315000; CB CH 31                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27325000; CB CH 32                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27335000; CB CH 33                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27345000; CB CH 34 Gateway         ; Narrow FM           ;      10000; ism,cb,fm
+    27355000; CB CH 35                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27365000; CB CH 36 Data            ; USB                 ;      10000; digital,ism,cb,ssb
+    27375000; CB CH 37                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27385000; CB CH 38                 ; Narrow FM           ;      10000; ism,cb,fm,am,ssb
+    27395000; CB CH 39 Gateway         ; Narrow FM           ;      10000; ism,cb,fm
+    27405000; CB CH 40 Gateway         ; Narrow FM           ;      10000; ism,cb,am,fm,ssb
+    28074000; FT8 10m Ham              ; USB                 ;       2400; digital,ft8,ham,ssb
+    28078000; JS8Call 10m Ham          ; USB                 ;       2700; digital,ham,js8call,ssb
+    28124600; WSPR2 10m Ham            ; USB                 ;       2500; digital,ham,ssb,wspr2
+    28124600; WSPR2 10m Ham            ; USB                 ;        400; digital,ham,ssb,wspr2
+    50318000; JS8Call 6m Ham           ; USB                 ;       2700; digital,ham,js8call,ssb
+    70091000; WSPR2 4m Ham             ; USB                 ;       2500; digital,ham,ssb,wspr2
+    70154000; FT8 4m Ham               ; USB                 ;       2400; digital,ft8,ham,ssb
+   144174000; FT8 2m Ham               ; USB                 ;       2400; digital,ft8,ham,ssb
+   144800000; 2m_APRS Ham              ; Narrow FM           ;      12500; ham
+   439987500; 70cm_POCSAG              ; Narrow FM           ;      12500; digital,ham,fm
